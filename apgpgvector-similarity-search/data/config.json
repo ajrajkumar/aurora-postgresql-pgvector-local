@@ -1,0 +1,13 @@
+{ 
+    "dataset" : { 
+	          "Fashion Dataset": "dress.csv", 
+	          "Product Recommendations":"amazon.csv"
+                },
+    "bedrockModels" : [ "amazon.titan-embed-text-v1",
+                        "amazon.titan-embed-g1-text-02",
+                        "cohere.embed-english-v3"
+                      ],
+    "opensourceModels": [ "sentence-transformers/all-mpnet-base-v2", 
+	                  "sentence-transformers/all-MiniLM-L6-v2"]
+               
+}
